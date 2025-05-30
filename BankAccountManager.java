@@ -31,7 +31,7 @@ class BankAccount {
     }
 
     public void displayInfo() {
-        System.out.printf("Account Number: %d, Holder: %s, Balance: %.2f%n", accountNumber, accountHolder, balance);
+        System.out.printf("Account Number: accountNumber, Holder: accountHolder, Balance: balance", accountNumber, accountHolder, balance);
     }
 }
 
